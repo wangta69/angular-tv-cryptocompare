@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import * as socketIo from 'socket.io-client';
 
-const SERVER_URL = 'wss://streamer.cryptocompare.com';
+// const SERVER_URL = 'wss://streamer.cryptocompare.com';
+const SERVER_URL = 'wss://streamer.cryptocompare.com/v2';
 @Injectable()
 export class SocketService {
     private socket: any;
