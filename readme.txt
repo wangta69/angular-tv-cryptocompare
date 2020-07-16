@@ -40,3 +40,8 @@ Copy charting_library's datafeeds and charting_library folders to src/assets in 
 npm install @types/jquery --save-dev
 
 6. Install bootstrap
+
+
+nodejs crawling 하여 db에 입력 https://min-api.cryptocompare.com/data/top/totalvolfull?limit=100&tsym=USD
+
+각각의 코인에 대해 소켓 데이타 받아서 전송
